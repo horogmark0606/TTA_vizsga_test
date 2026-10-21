@@ -1,0 +1,54 @@
+# Topic map. The agent reads this instead of listing folders. Keep in sync with progress/topics.yaml
+# and curriculum/INDEX.md. Modules: m1 Programming Basics, m2 Web Frameworks, m3 OOP with Java,
+# m4 Advanced - DevOps, gen = general extras (not course-reviewed). `ids` = question id range in the file.
+# source: workbook = course Tech Interview Workbook questions | general = extra, not course-reviewed.
+topics:
+  - {id: pb-data,                   module: m1, file: m1-programming-basics/pb-data.md, count: 6, ids: PB-DATA-01..PB-DATA-06, source: workbook, tags: [javascript, basics, data-structures]}
+  - {id: pb-algorithms,             module: m1, file: m1-programming-basics/pb-algorithms.md, count: 6, ids: PB-ALG-01..PB-ALG-06, source: workbook, tags: [javascript, basics, operators, loops]}
+  - {id: pb-functions,              module: m1, file: m1-programming-basics/pb-functions.md, count: 6, ids: PB-FN-01..PB-FN-06, source: workbook, tags: [javascript, functions, callbacks, scope]}
+  - {id: pb-builtins,               module: m1, file: m1-programming-basics/pb-builtins.md, count: 5, ids: PB-BUILTIN-01..PB-BUILTIN-05, source: workbook, tags: [javascript, strings, arrays, math]}
+  - {id: pb-files-json,             module: m1, file: m1-programming-basics/pb-files-json.md, count: 2, ids: PB-FILE-01..PB-FILE-02, source: workbook, tags: [javascript, json, files]}
+  - {id: pb-view,                   module: m1, file: m1-programming-basics/pb-view.md, count: 2, ids: PB-VIEW-01..PB-VIEW-02, source: workbook, tags: [javascript, dom, frontend]}
+  - {id: pb-events,                 module: m1, file: m1-programming-basics/pb-events.md, count: 3, ids: PB-EVENT-01..PB-EVENT-03, source: workbook, tags: [javascript, dom, events, frontend]}
+  - {id: pb-css,                    module: m1, file: m1-programming-basics/pb-css.md, count: 5, ids: PB-DESIGN-01..PB-DESIGN-05, source: workbook, tags: [css, html, frontend]}
+  - {id: pb-js-specialties,         module: m1, file: m1-programming-basics/pb-js-specialties.md, count: 6, ids: PB-LANG-01..PB-LANG-06, source: workbook, tags: [javascript, types, mutability, hoisting]}
+  - {id: pb-git,                    module: m1, file: m1-programming-basics/pb-git.md, count: 4, ids: PB-GIT-01..PB-GIT-04, source: workbook, tags: [git, github, teamwork]}
+  - {id: pb-terminal,               module: m1, file: m1-programming-basics/pb-terminal.md, count: 4, ids: PB-TERM-01..PB-TERM-04, source: workbook, tags: [terminal, shell, node]}
+  - {id: pb-debugging,              module: m1, file: m1-programming-basics/pb-debugging.md, count: 3, ids: PB-DEBUG-01..PB-DEBUG-03, source: workbook, tags: [debugging, tools]}
+  - {id: web-js-es6,                module: m2, file: m2-web-frameworks/web-js-es6.md, count: 8, ids: WEB-LANG-01..WEB-LANG-08, source: workbook, tags: [javascript, es6, modules]}
+  - {id: web-js-higher-order,       module: m2, file: m2-web-frameworks/web-js-higher-order.md, count: 4, ids: WEB-LANG-09..WEB-LANG-12, source: workbook, tags: [javascript, functional, arrays]}
+  - {id: web-fetch,                 module: m2, file: m2-web-frameworks/web-fetch.md, count: 7, ids: WEB-FETCH-01..WEB-FETCH-07, source: workbook, tags: [javascript, async, fetch, http, frontend]}
+  - {id: web-responsive,            module: m2, file: m2-web-frameworks/web-responsive.md, count: 8, ids: WEB-RESP-01..WEB-RESP-08, source: workbook, tags: [css, responsive, flexbox, frontend]}
+  - {id: web-oop-js,                module: m2, file: m2-web-frameworks/web-oop-js.md, count: 7, ids: WEB-OOJS-01..WEB-OOJS-07, source: workbook, tags: [javascript, oop, classes]}
+  - {id: web-express-basics,        module: m2, file: m2-web-frameworks/web-express-basics.md, count: 6, ids: WEB-EXPRESS-01..WEB-EXPRESS-06, source: workbook, tags: [express, node, backend, http]}
+  - {id: web-express-routing,       module: m2, file: m2-web-frameworks/web-express-routing.md, count: 6, ids: WEB-EXPRESS-07..WEB-EXPRESS-12, source: workbook, tags: [express, node, backend, api, middleware]}
+  - {id: web-http-rest,             module: m2, file: m2-web-frameworks/web-http-rest.md, count: 8, ids: WEB-REST-01..WEB-REST-08, source: workbook, tags: [http, rest, api, backend]}
+  - {id: web-html-forms,            module: m2, file: m2-web-frameworks/web-html-forms.md, count: 8, ids: WEB-REST-09..WEB-REST-16, source: workbook, tags: [html, forms, frontend]}
+  - {id: web-react-components,      module: m2, file: m2-web-frameworks/web-react-components.md, count: 10, ids: WEB-REACT-01..WEB-REACT-10, source: workbook, tags: [react, frontend, jsx, props]}
+  - {id: web-react-state,           module: m2, file: m2-web-frameworks/web-react-state.md, count: 6, ids: WEB-REACT-11..WEB-REACT-16, source: workbook, tags: [react, frontend, hooks, state]}
+  - {id: web-react-forms-tooling,   module: m2, file: m2-web-frameworks/web-react-forms-tooling.md, count: 6, ids: WEB-REACT-17..WEB-REACT-22, source: workbook, tags: [react, frontend, forms, vite]}
+  - {id: web-testing,               module: m2, file: m2-web-frameworks/web-testing.md, count: 8, ids: WEB-TEST-01..WEB-TEST-08, source: workbook, tags: [testing, vitest, javascript, unit-tests]}
+  - {id: web-firebase-db,           module: m2, file: m2-web-frameworks/web-firebase-db.md, count: 5, ids: WEB-FBDB-01..WEB-FBDB-05, source: workbook, tags: [firebase, database, nosql, backend]}
+  - {id: web-firebase-auth,         module: m2, file: m2-web-frameworks/web-firebase-auth.md, count: 7, ids: WEB-AUTH-01..WEB-AUTH-07, source: workbook, tags: [firebase, auth, security]}
+  - {id: web-apps-deploy,           module: m2, file: m2-web-frameworks/web-apps-deploy.md, count: 5, ids: WEB-APP-01..WEB-APP-05, source: workbook, tags: [react, router, context, deployment, firebase]}
+  - {id: oop-java-platform,         module: m3, file: m3-oop-java/oop-java-platform.md, count: 4, ids: OOP-ECO-01..OOP-ECO-04, source: workbook, tags: [java, jvm, compilation]}
+  - {id: oop-java-collections,      module: m3, file: m3-oop-java/oop-java-collections.md, count: 6, ids: OOP-ECO-05..OOP-ECO-10, source: workbook, tags: [java, collections]}
+  - {id: oop-java-language,         module: m3, file: m3-oop-java/oop-java-language.md, count: 7, ids: OOP-LANG-01..OOP-LANG-07, source: workbook, tags: [java, control-flow, lambdas]}
+  - {id: oop-classes-types,         module: m3, file: m3-oop-java/oop-classes-types.md, count: 9, ids: OOP-TYPE-01..OOP-TYPE-09, source: workbook, tags: [java, oop, classes, types]}
+  - {id: oop-inheritance-modifiers, module: m3, file: m3-oop-java/oop-inheritance-modifiers.md, count: 9, ids: OOP-TYPE-10..OOP-TYPE-18, source: workbook, tags: [java, oop, inheritance, polymorphism]}
+  - {id: oop-equality-access,       module: m3, file: m3-oop-java/oop-equality-access.md, count: 8, ids: OOP-TYPE-19..OOP-TYPE-26, source: workbook, tags: [java, equality, access-modifiers, wrappers]}
+  - {id: oop-design-principles,     module: m3, file: m3-oop-java/oop-design-principles.md, count: 8, ids: OOP-ARCH-01..OOP-ARCH-08, source: workbook, tags: [oop, solid, design]}
+  - {id: oop-patterns-practices,    module: m3, file: m3-oop-java/oop-patterns-practices.md, count: 7, ids: OOP-ARCH-09..OOP-ARCH-15, source: workbook, tags: [design-patterns, architecture, repository]}
+  - {id: oop-unit-testing,          module: m3, file: m3-oop-java/oop-unit-testing.md, count: 6, ids: OOP-TEST-01..OOP-TEST-06, source: workbook, tags: [java, testing, junit, mockito]}
+  - {id: oop-sql-concepts,          module: m3, file: m3-oop-java/oop-sql-concepts.md, count: 10, ids: OOP-DB-01..OOP-DB-10, source: workbook, tags: [sql, database, relational, jdbc]}
+  - {id: oop-sql-statements,        module: m3, file: m3-oop-java/oop-sql-statements.md, count: 6, ids: OOP-DB-11..OOP-DB-16, source: workbook, tags: [sql, database, postgresql]}
+  - {id: devops-linux,              module: m4, file: m4-devops/devops-linux.md, count: 10, ids: DEVOPS-LINUX-01..DEVOPS-LINUX-10, source: workbook, tags: [linux, shell, bash]}
+  - {id: devops-networking-basics,  module: m4, file: m4-devops/devops-networking-basics.md, count: 8, ids: DEVOPS-NET-01..DEVOPS-NET-08, source: workbook, tags: [networking, tcp-ip, dns]}
+  - {id: devops-networking-ip-aws,  module: m4, file: m4-devops/devops-networking-ip-aws.md, count: 6, ids: DEVOPS-NET-09..DEVOPS-NET-14, source: workbook, tags: [networking, aws, vpc]}
+  - {id: devops-security,           module: m4, file: m4-devops/devops-security.md, count: 9, ids: DEVOPS-SEC-01..DEVOPS-SEC-09, source: workbook, tags: [aws, security, iam, encryption]}
+  - {id: devops-docker,             module: m4, file: m4-devops/devops-docker.md, count: 6, ids: DEVOPS-CONT-01..DEVOPS-CONT-06, source: workbook, tags: [docker, containers]}
+  - {id: devops-kubernetes,         module: m4, file: m4-devops/devops-kubernetes.md, count: 6, ids: DEVOPS-CONT-07..DEVOPS-CONT-12, source: workbook, tags: [kubernetes, containers, orchestration]}
+  - {id: devops-terraform,          module: m4, file: m4-devops/devops-terraform.md, count: 7, ids: DEVOPS-IAC-01..DEVOPS-IAC-07, source: workbook, tags: [terraform, iac, aws]}
+  - {id: gen-javascript,            module: gen, file: general/gen-javascript.md, count: 8, ids: GEN-JS-01..GEN-JS-08, source: general, tags: [javascript, async, errors, dom, http, general]}
+  - {id: gen-java,                  module: gen, file: general/gen-java.md, count: 7, ids: GEN-JAVA-01..GEN-JAVA-07, source: general, tags: [java, exceptions, collections, memory, general]}
+  - {id: gen-devops,                module: gen, file: general/gen-devops.md, count: 5, ids: GEN-DEVOPS-01..GEN-DEVOPS-05, source: general, tags: [ci, cd, pipelines, git, devops, general]}

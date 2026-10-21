@@ -1,0 +1,7 @@
+# Fill this in once. The agent reads it first in every session.
+interview_date: null         # date of your trial tech interview (YYYY-MM-DD), optional
+interview_language: hu       # language of mock interviews: en | hu (the FullStack 2026 trial is mostly Hungarian)
+help: normal                 # more | normal | interview-like  (how many hints you get)
+modules: [m1, m2, m3, m4]    # m1 Programming Basics, m2 Web Frameworks, m3 OOP with Java, m4 Advanced - DevOps; narrow it down to focus
+scenario: fullstack-2026-trial  # how your interview runs (see scenarios/README.md); null = topic-based mocks only
+kata_language: null          # language for warm-up katas (e.g. javascript | java); the agent asks the first time

@@ -1,0 +1,6 @@
+# Your plan until the trial tech interview. The `prep` skill copies this to progress/plan.yaml and keeps it updated.
+focus_topics: []             # topic ids, ordered by priority (max 8)
+readiness: 0                 # 0-100, the agent's estimate after sessions
+plan: []                     # short list of next steps
+rehearsals: []               # one line per full rehearsal: "YYYY-MM-DD theory 7.5/11; warm-up ok; devops T1 partial"
+notes: ""

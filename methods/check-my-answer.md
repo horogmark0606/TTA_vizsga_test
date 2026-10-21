@@ -1,0 +1,4 @@
+# Check my answer
+**When:** the student pastes their own workbook answer (written during the module) and wants to know if it's good enough.
+**Steps:** 1) Find the question in the bank (via `questions/index.yaml`, ONE topic file). 2) Compare silently with the rubric. 3) Say which rubric points are covered and which **topics** are missing or thin. Name the topic, not the content ("what happens with an empty array?", not "it returns NaN"). 4) If something is factually wrong, point to *which sentence* and ask them to check it at the rubric's "Verify at" source. Don't write the corrected sentence. 5) Ask them to rewrite it in their own words and send it again. 6) Optional: ask one "Interviewer follow-up" to test it isn't memorised.
+**Persist:** topic score if evidence supports it; missing points as `weak` ids in `progress/topics.yaml`; session note.

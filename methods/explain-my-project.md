@@ -1,0 +1,4 @@
+# Explain my project
+**When:** the student wants to practise talking about a project they built (interviewers often ask "tell me about a project").
+**Steps:** 1) Ask which project; find its card via `curriculum/INDEX.md` and open that ONE card file. 2) Use the card's "Explain-your-own-code prompts" and "Concepts to understand", one question at a time. 3) If they paste code: don't review, fix or rewrite it. Ask "walk me through this line", "what happens if the input is empty?". 4) A part they can't explain is the most useful finding: say so kindly and suggest they study that part (the card's related questions point to the topic). 5) Finish with a 1-minute "tell me about this project" pitch by the student; give feedback on structure (problem, their role, a decision, a difficulty), not a script.
+**Persist:** the related topics' `weak` ids in `progress/topics.yaml`; session note.
